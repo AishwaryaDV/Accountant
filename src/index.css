@@ -11,3 +11,132 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  display:flex;
+  flex-direction:row;
+  height: 40px;
+  
+}
+.company-name{
+  background-color: rgb(215, 180, 116);
+  color: black;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-top: 9px;
+  width:100px;
+  cursor:pointer;
+  
+}
+.my-profile{
+  flex:1;
+  background-color: rgb(215, 180, 116);
+  padding-left: 1130px;
+  padding-top: 9px;
+  padding-right:10px;
+  color: black;
+  font-weight: bold;
+}
+.overview{
+  display:flex;
+  flex-direction:row;
+  margin-top:20px;
+  height:300px;
+  column-gap:20px
+  
+}
+.theme-section{
+  background-color:rgb(185, 194, 185);
+  flex:1.7;
+  margin-left:15px;
+  border-radius: 15px 15px 15px 15px;
+}
+.summary-section{
+  background-color:rgb(215, 180, 116);
+  flex:1.7;
+  border-radius: 15px 15px 15px 15px;
+}
+.logo-section{
+  background-color:brown;
+  flex:1;
+  margin-right:15px;
+  border-radius: 15px 15px 15px 15px;
+}
+.overview-header{
+  margin-top:-28px;
+  padding-left: 55px;
+  font-weight:bold;
+}
+.total-balance{
+  margin-top:25px;
+  padding-left: 20px;
+  font-weight:bold;
+  color:rgb(67, 48, 48);
+}
+.credit-points{
+  margin-top:45px;
+  padding-left: 20px;
+  font-weight:bold;
+  color:rgb(67, 48, 48);
+}
+.total-pl{
+  margin-top:45px;
+  padding-left: 20px;
+  font-weight:bold;
+  color:rgb(67, 48, 48);
+}
+.total-balance-value{
+  margin-top:-125px;
+  font-weight:bold;
+  padding-left:20px;
+  font-size:25px;
+}
+.credit-points-value{
+  margin-top:35px;
+  font-weight:bold;
+  padding-left:20px;
+  font-size:25px;
+}
+.total-pl-value{
+  margin-top:35px;
+  font-weight:bold;
+  padding-left:20px;
+  font-size:25px;
+}
+.show-cards{
+  margin-top:15px;
+  font-weight:bold;
+  padding-left:20px;
+  font-size:15px;
+  color:rgb(217, 54, 54);
+}
+.virtual-card{
+  height:160px;
+  width:110px;
+  border-radius: 10px 10px 10px 10px;
+  background-color:rgb(255, 255, 255);
+  margin-left:-20px;
+  margin-top:65px;
+}
+.visa-card{
+  color:rgb(36, 36, 156);
+  font-weight: bold;
+  font-style:italic;
+  padding-top: 10px;
+  padding-left:65px
+}
+.card-number{
+  font-weight:bold;
+  padding-left:7px;
+  padding-top:40px;
+}
+.total-overview{
+  display:flex;
+  flex-direction:row;
+}
+.left-overview{
+  flex:1;
+}
+.right-overview{
+  flex:1;
+}
