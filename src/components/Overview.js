@@ -1,14 +1,15 @@
 import React from 'react'
-import circle from '../assets/profile.png'
+import VisaCard from './VisaCard'
 import {FiBookOpen} from 'react-icons/fi'
-import {BsThreeDotsVertical} from 'react-icons/bs'
-
+import Logo from '../assets/logo.png'
+import themePic from '../assets/theme-pic.png'
 
 const Overview = () => {
   return (
     <div className="overview">
         <div className='theme-section'>
-
+          <img src={themePic} style={{maxWidth:'100%',height:'1300', borderRadius:'17px 17px 20px 20px'}}/>
+         
         </div>
 
        <div className="summary-section"> 
@@ -25,17 +26,22 @@ const Overview = () => {
        <div className="show-cards">Show All</div>
        </div>
        <div className="right-overview">
-            <div className="virtual-card">
-                <div className="visa-card">VISA</div>
-                <div className="card-number">* * * *  3 4 5 6</div>
-                <BsThreeDotsVertical style={{fontWeight:'bold', fontSize:'1.5em',paddingLeft:'80px',paddingTop:'38px'}}/>
+              {/* <div className="add-card"> */}
+                <button className="add-card">Add new card</button>
+              {/* </div> */}
+            <div className="card-types">
+              <VisaCard />
             </div>
        </div>
        </div>
        </div>
 
 
-       <div className="logo-section"></div>
+       <div className="logo-section">
+        <div className="logo-picture">
+        <img src={Logo} />
+        </div>
+       </div>
     </div>
     
   )

@@ -12,9 +12,9 @@ const Header = () => {
           Accountant
         </div>
         <div className="my-profile">
-          Welcome, Vidish Raj
+          Welcome, Aishwarya DV
         </div>
-        <CgProfile style={{color:'black', cursor:'pointer', fontSize:'2.2em', paddingTop:'4.9px', backgroundColor:'rgb(215, 180, 116)',paddingRight:'3px'}}/>
+        {/* <CgProfile style={{color:'black', cursor:'pointer', fontSize:'2.2em', paddingTop:'4.9px', backgroundColor:'rgb(242, 204, 135)',paddingRight:'3px'}}/> */}
     </div>
    
   )

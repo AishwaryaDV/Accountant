@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height:1500px;
 }
 
 code {
@@ -19,7 +20,7 @@ code {
   
 }
 .company-name{
-  background-color: rgb(215, 180, 116);
+  background-color: rgb(242, 204, 135);
   color: black;
   font-weight: bold;
   padding-left: 5px;
@@ -30,7 +31,7 @@ code {
 }
 .my-profile{
   flex:1;
-  background-color: rgb(215, 180, 116);
+  background-color: rgb(242, 204, 135);
   padding-left: 1130px;
   padding-top: 9px;
   padding-right:10px;
@@ -43,29 +44,33 @@ code {
   margin-top:20px;
   height:300px;
   column-gap:20px
-  
 }
 .theme-section{
-  background-color:rgb(185, 194, 185);
+  background-color:rgb(242, 204, 135);
   flex:1.7;
   margin-left:15px;
   border-radius: 15px 15px 15px 15px;
 }
 .summary-section{
-  background-color:rgb(215, 180, 116);
+  background-color:rgb(242, 204, 135);
   flex:1.7;
   border-radius: 15px 15px 15px 15px;
 }
 .logo-section{
-  background-color:brown;
   flex:1;
   margin-right:15px;
   border-radius: 15px 15px 15px 15px;
 }
+.logo-picture{
+  padding-left:60px;
+  padding-top:10px;
+  height:auto;
+}
 .overview-header{
-  margin-top:-28px;
+  margin-top:-31px;
   padding-left: 55px;
   font-weight:bold;
+  font-size:20px;
 }
 .total-balance{
   margin-top:25px;
@@ -109,13 +114,22 @@ code {
   padding-left:20px;
   font-size:15px;
   color:rgb(217, 54, 54);
+  text-decoration:underline;
 }
-.virtual-card{
+.virtual-card-1{
   height:160px;
   width:110px;
   border-radius: 10px 10px 10px 10px;
   background-color:rgb(255, 255, 255);
   margin-left:-20px;
+  margin-top:65px;
+}
+.virtual-card-2{
+  height:160px;
+  width:110px;
+  border-radius: 10px 10px 10px 10px;
+  background-color:rgb(255, 255, 255);
+  margin-left:30px;
   margin-top:65px;
 }
 .visa-card{
@@ -124,6 +138,13 @@ code {
   font-style:italic;
   padding-top: 10px;
   padding-left:65px
+}
+.visa-card-2{
+  color:rgb(36, 36, 156);
+  font-weight: bold;
+  font-style:italic;
+  padding-top: 8px;
+  padding-left:55px
 }
 .card-number{
   font-weight:bold;
@@ -139,4 +160,436 @@ code {
 }
 .right-overview{
   flex:1;
+}
+.card-types{
+  display:flex;
+  flex-direction:row;
+  margin-top:-45px;
+}
+.add-card{
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:8px;
+  padding-bottom:8px;
+  margin-top:20px;
+  font-size:15px;
+  font-weight:bold;
+  margin-left:50px;
+  border-radius: 15px 15px 15px 15px;
+  border:none;
+  color:rgb(245, 251, 245);
+  background-color:rgb(65, 172, 65);
+}
+.lower-section{
+  display:flex;
+  flex-direction:row;
+}
+.savings-section{
+  flex:1.7;
+  background-color:rgb(242, 204, 135);
+  margin-top:20px;
+  height:350px;
+  margin-left:15px;
+  border-radius: 15px 15px 15px 15px;
+}
+.analytics-section{
+  flex:1.7;
+  background-color:rgb(235, 225, 210);
+  margin-top:20px;
+  height:350px;
+  margin-right:23px;
+  margin-left:21px;
+  border-radius: 15px 15px 15px 15px;
+}
+.stocks-section{
+  flex:1;
+  background-color:rgb(235, 225, 210);
+  margin-top:20px;
+  border-radius: 15px 15px 15px 15px;
+  margin-right:15px;
+}
+.main-portfolio{
+  display:flex;
+  flex-direction:row;
+}
+.zerodha{
+  color:rgb(46, 95, 179);
+  font-weight:bold;
+  font-size:20px;
+  margin-left:105px;
+  margin-top:15px;
+}
+.invested-section{
+  flex:1;
+  font-weight:bold;
+  margin-top:20px;
+  margin-left:30px;
+  padding-left:10px;
+  font-size:15px;
+  color:rgb(67, 48, 48)
+}
+.current-section{
+  flex:1;
+  font-weight:bold;
+  margin-top:20px;
+  margin-left:90px;
+  padding-right:10px;
+  font-size:15px;
+  color:rgb(67, 48, 48);
+}
+.main-portfolio-values{
+  display:flex;
+  flex-direction:row;
+}
+.invested-section-value{
+  flex:1;
+  font-weight:bold;
+  margin-top:40px;
+  margin-top:5px;
+  margin-left:15px;
+  font-size:17px;
+}
+.current-section-value{
+  flex:1;
+  font-weight:bold;
+  margin-left:183px;
+  margin-top:-20px;
+  font-size:17px;
+}
+.stock-1-name{
+  font-weight:bold;
+  color: black;
+  font-size:16px;
+  padding-left:14px;
+  display:flex;
+  flex-direction:row;
+  display:inline;
+}
+.stock-1-value{
+  font-size:15px;
+  padding-left:98px;
+  margin-bottom:100px;
+  font-weight:bold;
+  flex:1;
+  display:inline;
+  font-size:16px;
+  color:rgb(217, 54, 54)
+}
+.current-price-section{
+  flex:1;
+  font-weight:bold;
+  padding-bottom:30px;
+  margin-top:4px;
+  padding-left:12px;
+  font-size:13px;
+  color:rgb(67, 48, 48)
+  
+}
+.current-price-section-value{
+  margin-top:-45px;
+  margin-left:69px;
+  font-size:13px;
+  font-weight:bold;
+  color:rgb(67, 48, 48)
+}
+.quantity-section{
+  margin-left:187px;
+  margin-top:-16px;
+  font-weight:bold;
+  font-size:13px;
+  color:rgb(67, 48, 48)
+}
+.quantity-value{
+  font-size:13px;
+  font-weight:bold;
+  margin-left:250px;
+  margin-top:-15px;
+}
+.add-stocks-btn{
+  border:none;
+  width:100px;
+  height:40px;
+  color:white;
+  background-color:rgb(65, 172, 65);
+  border-radius:15px 15px 15px 15px;
+  font-size:20px;
+  font-weight:bold;
+  margin-left:100px;
+  margin-top:7px;
+  margin-bottom:20px;
+}
+.pen-icon{
+  color:black;
+  margin-top:9px;
+  margin-left:14px;
+}
+.dropdown-icon{
+  font-size:22px;
+  margin-left:10px;
+}
+.dustbin-icon{
+  font-size:17px;
+  margin-left:10px;
+}
+.transactions-section{
+  background-color:rgb(242, 204, 135);
+  width:1082px;
+  margin-top:-240px;
+  margin-left:13px;
+  border-radius:15px 15px 15px 15px;
+  height:500px;
+}
+.charts-section{
+  display:flex;
+  flex-direction:row;
+  
+}
+.savings-header-section{
+  font-weight:bold;
+  padding-top:11px;
+  margin-left:220px;
+  font-size:20px;
+}
+.pie-chart{
+  flex:1;
+  margin-top:10px;
+  border:none;
+  padding-left:20px;
+  
+}
+.legend-1{
+  height:20px;
+  width:20px;
+  background-color:#008080;
+  margin-left:140px;
+  margin-top:-115px;
+  margin-bottom:7px;
+  
+}
+.legend-2{
+  margin-left:140px;
+  height:20px;
+  width:20px;
+  background-color:#f6546a;
+  margin-bottom:7px;
+}
+.legend-3{
+  margin-left:140px;
+  height:20px;
+  width:20px;
+  background-color:#c6e2ff;
+  margin-bottom:7px;
+}
+.legend-4{
+  margin-left:140px;
+  height:20px;
+  width:20px;
+  background-color:#696969;
+  margin-bottom:7px;
+}
+.legend-5{
+  margin-left:140px;
+  height:20px;
+  width:20px;
+  background-color:#fa8072;
+  margin-bottom:7px;
+}
+.option-section{
+  flex:1;
+}
+.savings-btn{
+  border:none;
+  font-size:15px;
+  border-radius:10px 10px 10px 10px;
+  width:150px;
+  height:29px;
+  color:white;
+  background-color: rgb(65, 172, 65);
+  font-weight:bold;
+  margin-top:13px;
+  margin-left:20px;
+}
+.select-an-option-section{
+  display:block;
+}
+.amount-invested{
+  margin-top:10px;
+  padding-left:3px;
+  color:black;
+  font-size:18px;
+  font-weight:bold;
+  color:rgb(67, 48, 48);
+}
+.amount-invested-value{
+  margin-top:5px;
+  padding-left:3px;
+  color:black;
+  font-size:23px;
+  font-weight:bold;
+}
+.interest-gained{
+  margin-top:15px;
+  padding-left:3px;
+  color:black;
+  font-size:19px;
+  font-weight:bold;
+  color:rgb(67, 48, 48);
+}
+.interest-gained-value{
+  margin-top:5px;
+  padding-left:3px;
+  color:black;
+  font-size:23px;
+  font-weight:bold;
+}
+.current-balance{
+  margin-top:15px;
+  padding-left:3px;
+  color:black;
+  font-size:19px;
+  font-weight:bold;
+  color:rgb(67, 48, 48);
+}
+.current-balance-value{
+  margin-top:5px;
+  padding-left:3px;
+  color:black;
+  font-size:23px;
+  font-weight:bold;
+}
+.gold-section{
+  color:white;
+  background-color:rgb(214, 239, 214);
+  padding-left:30px;
+  margin-top:35px;
+  width:130px;
+  padding-right:-30px;
+  border-radius:10px 10px 10px 10px;
+}
+.gold-rate-section{
+  padding-top:5px;
+  font-size:15px;
+  font-weight:bold;
+  margin-left:-12px;
+  margin-bottom:5px;
+  color:rgb(67, 48, 48)
+}
+.gold-section-date{
+  font-size:18px;
+  font-weight:bold;
+  margin-left:0px;
+  margin-bottom:5px;
+  color:black;
+}
+.gold-current-price-section{
+  font-size:18px;
+  font-weight:bold;
+  margin-left:-2px;
+  padding-bottom:5px;
+  color:rgb(24, 131, 24);
+}
+.analytics-header-section{
+  padding-left:230px;
+  font-weight:bold;
+  font-size:20px;
+  padding-top:11px;
+}
+.analytics-section{
+  display:flex;
+  flex-direction:column;
+}
+.piechart-1-section{
+  flex:1;
+  margin-top:-20px;
+}
+.piechart-1-data{
+  display:flex;
+  flex-direction:row;
+}
+.piechart-1{
+  flex:1;
+  margin-left:-10px;
+}
+.piechart-1-accounts{
+  flex:1;
+}
+.piechart-1-debits{
+  font-weight:bold;
+  font-size:18px;
+  color:rgb(67, 48, 48);
+  margin-top:30px;
+  margin-left:-120px;
+  padding-left:20px;
+}
+.piechart-1-debits-value{
+  font-weight:bold;
+  font-size:23px;
+  margin-left:-120px;
+  margin-top:2px;
+}
+.piechart-1-credits{
+  font-weight:bold;
+  font-size:18px;
+  color:rgb(67, 48, 48);
+  margin-top:-50px;
+  padding-left:110px
+}
+.piechart-1-credits-value{
+  font-weight:bold;
+  font-size:23px;
+  padding-left:90px;
+}
+.piechart-2-section{
+  flex:1;
+  margin-top:10px;
+}
+.piechart-2-data{
+  display:flex;
+  flex-direction:row;
+}
+.piechart-2{
+  flex:1;
+  margin-left:-10px;
+}
+.piechart-2-accounts{
+  flex:1;
+}
+.piechart-2-debits{
+  font-weight:bold;
+  font-size:18px;
+  color:rgb(67, 48, 48);
+  margin-top:30px;
+  margin-left:-135px;
+  padding-left:20px;
+}
+.piechart-2-debits-value{
+  font-weight:bold;
+  font-size:23px;
+  margin-left:-120px;
+  margin-top:2px;
+}
+.piechart-2-credits{
+  font-weight:bold;
+  font-size:18px;
+  color:rgb(67, 48, 48);
+  margin-top:-50px;
+  padding-left:97px
+}
+.piechart-2-credits-value{
+  font-weight:bold;
+  font-size:23px;
+  padding-left:90px;
+}
+.analytics-calender-range{
+  padding-left:250px;
+  font-size:30px;
+  margin-top:15px;
+  flex:1;
+  margin-bottom:200px;
+}
+.footer-section{
+  font-weight:bold;
+  font-size:14px;
+  margin-top:10px;
+  margin-left:640px;
 }
