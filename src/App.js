@@ -25,7 +25,7 @@ function App() {
       </div>
       <div className="transactions-section">
         <Transactions />
-      </div>
+      </div> 
       <Footer />
     </div>
   );

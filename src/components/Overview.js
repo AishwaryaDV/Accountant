@@ -8,8 +8,9 @@ const Overview = () => {
   return (
     <div className="overview">
         <div className='theme-section'>
-          <img src={themePic} style={{maxWidth:'100%',height:'1300', borderRadius:'17px 17px 20px 20px'}}/>
-         
+          <div className="theme-section-inner">
+          <img src={themePic}/>
+          </div>
         </div>
 
        <div className="summary-section"> 
