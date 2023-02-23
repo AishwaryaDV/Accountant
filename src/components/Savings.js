@@ -32,7 +32,19 @@ const Savings = () => {
         </div>
         <div className="option-section">
         <div className="select-an-option-section">
-        <button className="savings-btn">Select an option</button>
+          <form>
+          <input type="radio" value="PF"/>
+          <label for="pf" className="savings-section-option">PF</label>
+          <input type="radio" value="PPF"/>
+          <label for="ppf" className="savings-section-option">PPF</label>
+          <input type="radio" value="FD"/>
+          <label for="fd" className="savings-section-option">FD</label>
+          <input type="radio" value="Gold"/>
+          <label for="gold" className="savings-section-option">Gold</label>
+          <br></br>
+          <input type="radio" value="Mutual Funds"/>
+          <label for="mutual-funds" className="savings-section-option">Mutual Funds</label>
+          </form>
         </div>
         <br></br>
         <div className="amount-invested">Amount Invested</div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {BsFunnelFill} from 'react-icons/bs'
 
 const Transactions = () => {
   return (
@@ -8,7 +9,10 @@ const Transactions = () => {
       <span>
         <input className="transaction-search-bar" placeholder="Search name..."/>
       </span>
-      <span className="filter-section">Filters</span>
+      <span className="filter-section">
+        <span>Filters</span>
+        <BsFunnelFill size={13} style={{paddingLeft:'4px'}}/>
+      </span>
       <div className="transaction-table">
         <table className="transaction-table-name">
           <tr>
